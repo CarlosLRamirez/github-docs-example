@@ -62,11 +62,11 @@ int main() {
 
 - This is an example for a Spanish Windows Keyboard 
 
-![Backticks key in Windows Keyboard](/assets/IMG_3019.jpg "Backticks key in Windows Keyboard")
+![Backticks key in Windows Keyboard](/assets/backtick-WindowsSPA.jpg "Backticks key in Windows Keyboard")
 
 - This is an example for a English Macbook Keyboard
 
-![Backticks key in Windows Keyboard](/assets/IMG_3020.jpg "Backticks key in Windows Keyboard")
+![Backticks key in Windows Keyboard](/assets/backtick-MacENG.jpg "Backticks key in Windows Keyboard")
 
 Good Cloud Engineers use codebocks for both Code and Errors that appear in the console.
 
@@ -136,7 +136,7 @@ Github extends the functionality of Markdown tables to provide more alignment an
 - Make note of where the pipe keyboard key is located
 - It should appear above the return or enter key , but it may vary based on your keyboard:
 
-![Keyboard Key](/assets/IMG_3263.jpg)
+![Keyboard Key](/assets/Pipe-MacENG.jpg)
 
 ## Step 7 - Use Links and Cross-References
 

@@ -2,29 +2,53 @@
 
 GitHub Flavored Markdown (GFM)[^1] is a variant of the Markdown markup language designed for use on the GitHub platform. Markdown is a lightweight and easy-to-read plain text format that allows you to format text using a simple and intuitive syntax[^2] . 
 
-You can use GFM to write a good documentation for your software projects or any type of projects.
+One of the key advantages of GitHub Flavored Markdown is its versatility and ease of use, making it an excellent choice for creating comprehensive documentation. Whether you're a developer working on open-source software, a technical writer crafting user guides, or simply looking to improve the clarity of your project's README, GFM offers a wide range of features to help you present your information in a structured and visually appealing way.
 
-## Step 1 - Using Codeblocks.
+When it comes to documentation, the devil is often in the details. GitHub Flavored Markdown equips you with the tools to enhance your documentation's readability and utility. In this blog post, we'll explore some of the most valuable features and best practices for writing clear and effective documentation using GFM.
 
-Codeblocks in mardkdown allow us to **copy, plaste and share core**. A goog Cloud Engineer uses Codeblocks whenever possible.
+## Step 1 - Use Headers and Sections
 
-Because it allows others to copy and paste their code to replicate or research issues.
+Use headers and sections to break down your documentation into manageable and organized chunks. This makes it easier for readers to navigate and find the information they need.
 
-- In order to create codeblocks in markdown you need to use three backticks (`), you can find it [here](/assets/IMG_3019.jpg) in the keyboard, also [here](/assets/IMG_3020.jpg)
+``` md
+# Getting Started
+
+## Installation
+
+### Step 1: Download the software
+
+### Step 2: Configure your settings
+```
+
+
+## Step 2 - Use Codeblocks with syntax highlight.
+
+Codeblocks in mardkdown allow us to **copy, plaste and share core**. 
+
+A goog Cloud Engineer uses Codeblocks whenever possible, because it allows others to copy and paste their code to replicate or research issues.
+
+
+
+- To create a code block in Markdown, you can use triple backticks (```) followed by the programming language (if applicable).
 - Not to be confused with quotation (')
 
+For example, to create a code block in Python:
+
+\```python
+def my_function():
+    print("Hello, World!")
+\```
+
+This will render as:
+
+```python
+def my_function():
+    print("Hello, World!")
 ```
-#include <iostream>
 
-int main() {
-    std::cout << "Hello, World!" << std::endl;
-    return 0;
-}
-```
+- This is another example for highligthed for GO language
 
-- When you can you should attempt to apply syntax highlighting to your codeblocks
-
-```go
+``` go
 #include <iostream>
 
 int main() {
@@ -64,7 +88,7 @@ If you need to take a screenshot make sure is not a photo from you phone
 
 > There are certain cases where its okay to take photo with your phone, This is when you are showing something like a keyboard, which dows not appear on a computer screen. If it render on your computer screen it should be a screenshot.
 
-## Step 2 - How to take screenshots
+## Step 3 - How to take screenshots
 
 - A screenshot is when you capture a part of your screen from your laptop, desktop or phone.
 - This is not to be confused with take a photo with your phone.
@@ -77,7 +101,7 @@ If you need to take a screenshot make sure is not a photo from you phone
 
 ![A proper screenshoot](/assets/Screenshot.jpg)
 
-## Step 3 - Use Github Flavored Markdown Task Lists
+## Step 4 - Use Github Flavored Markdown Task Lists
 
 Github extends Markdown to have a list where you can check off items[^3].
 
@@ -85,7 +109,7 @@ Github extends Markdown to have a list where you can check off items[^3].
 - [ ] Finish Step 2
 - [ ] Finish Step 3
 
-## Step 4 - Use Emojis (Optional)
+## Step 5 - Use Emojis (Optional)
 
 GitHub Flavored Markdown supports emoji shurtcuts[^4]. Here are some examples:
 
@@ -95,7 +119,7 @@ GitHub Flavored Markdown supports emoji shurtcuts[^4]. Here are some examples:
 | Cloud with Lightning | `:cloud_with_lightning:` | :cloud_with_lightning: |
 | Fire | `:fire:` | :fire: |
 
-## Step 5 - How to Create a Table
+## Step 6 - How to Create a Table
 
 You can use the following markdown format to create table:
 
@@ -113,6 +137,14 @@ Github extends the functionality of Markdown tables to provide more alignment an
 - It should appear above the return or enter key , but it may vary based on your keyboard:
 
 ![Keyboard Key](/assets/IMG_3263.jpg)
+
+## Step 7 - Use Links and Cross-References
+
+Link to other sections within your documentation or reference external resources. Mentioning GitHub issues and users within your repository also creates contextual links for discussion and collaboration.
+
+For more details, see the [How To Learn and Don't Forget](/how-to-learn/and-not-forget.md)
+or any other [reference here](#external-references).
+
 
 ## External References
 

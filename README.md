@@ -33,8 +33,8 @@ int main() {
 }
 ```
 
-- Make note of where the backtick button is located
--It should appear above the tab key, but it may vary based on your keyboard:
+- Make note of where the backtick keyboard key is located
+- It should appear above the tab key, but it may vary based on your keyboard:
 
 - This is an example for a Spanish Windows Keyboard 
 
@@ -58,21 +58,53 @@ exit status 2
 
 > Here is an example of using a codeblock for an error that appears in bash
 
+## Step 2
+
 ## Step 3 - Use Github Flavored Markdown Task Lists
 
-Github extends Markdown to have a list where you can check off items.<sub>[3]</sub>
+Github extends Markdown to have a list where you can check off items<sup>[3]</sup>.
 
 - [x] Finish Step 1
 - [ ] Finish Step 2
 - [ ] Finish Step 3
 
+## Step 4 - Use Emojis (Optional)
 
+GitHub Flavored Markdown supports emoji shurtcuts<sup>[4]</sup>. Here are some examples:
 
+| Name | Shortcut | Emoji |
+| --- | --- | --- |
+| Cloud | `:cloud:` | :cloud: |
+| Cloud with Lightning | `:cloud_with_lightning:` | :cloud_with_lightning: |
+| Fire | `:fire:` | :fire: |
 
-## References
+## Step 5 - How to Create a Table
 
-- [GitHub Flavored Markdown Spec](https://github.github.com/gfm/)<sub>[1]</sub>
+You can use the following markdown format to create table:
 
-- [Basic writing and formatting syntax (Github Flavored Markdown)](https://docs.github.com/en/get-started/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax)<sub>[2]</sub>
+```md
+| Name | Shortcut | Emoji |
+| --- | --- | --- |
+| Cloud | `:cloud:` | :cloud: |
+| Cloud with Lightning | `:cloud_with_lightning:` | :cloud_with_lightning: |
+| Fire | `:fire:` | :fire: |
+```
 
-- [GFM - Task List](https://docs.github.com/en/get-started/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax#task-lists)<sub>[3]</sub>
+Github extends the functionality of Markdown tables to provide more alignment and table cell formatting options [<sup>[5]</sup>](#external-references)
+
+- Make note of where the pipe keyboard key is located
+- It should appear above the return or enter key , but it may vary based on your keyboard:
+
+![Keyboard Key](/assets/IMG_3263.jpg)
+
+## External References
+
+- [GitHub Flavored Markdown Spec](https://github.github.com/gfm/)<sup>[1]</sup>
+
+- [Basic writing and formatting syntax (Github Flavored Markdown)](https://docs.github.com/en/get-started/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax)<sup>[2]</sup>
+
+- [GFM - Task List](https://docs.github.com/en/get-started/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax#task-lists)<sup>[3]</sup>
+
+- [GFM - Emoji CheatSheet](https://github.com/ikatyang/emoji-cheat-sheet)<sup>[4]</sup>
+
+- [GFM - Tables (with extensions)](https://github.github.com/gfm/#tables-extension-) <sup>[5]</sup>

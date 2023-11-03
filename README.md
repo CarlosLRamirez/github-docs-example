@@ -1,5 +1,9 @@
 # Writing Good Documentation
 
+GitHub Flavored Markdown (GFM)[^1] is a variant of the Markdown markup language designed for use on the GitHub platform. Markdown is a lightweight and easy-to-read plain text format that allows you to format text using a simple and intuitive syntax[^2] . 
+
+You can use GFM to write a good documentation for your software projects or any type of projects.
+
 ## Step 1 - Using Codeblocks.
 
 Codeblocks in mardkdown allow us to **copy, plaste and share core**. A goog Cloud Engineer uses Codeblocks whenever possible.
@@ -16,10 +20,6 @@ int main() {
     std::cout << "Hello, World!" << std::endl;
     return 0;
 }
-```
-
-```
-this is another one
 ```
 
 - When you can you should attempt to apply syntax highlighting to your codeblocks
@@ -58,11 +58,28 @@ exit status 2
 
 > Here is an example of using a codeblock for an error that appears in bash
 
-## Step 2
+When you can always provide a codeblock instead of a screenshot.
+
+If you need to take a screenshot make sure is not a photo from you phone
+
+> There are certain cases where its okay to take photo with your phone, This is when you are showing something like a keyboard, which dows not appear on a computer screen. If it render on your computer screen it should be a screenshot.
+
+## Step 2 - How to take screenshots
+
+- A screenshot is when you capture a part of your screen from your laptop, desktop or phone.
+- This is not to be confused with take a photo with your phone.
+
+**DON'T DO THIS**
+
+![A photo with your phone](/assets/phone_photo.jpg)
+
+**DO THIS INSTEAD**
+
+![A proper screenshoot](/assets/Screenshot.jpg)
 
 ## Step 3 - Use Github Flavored Markdown Task Lists
 
-Github extends Markdown to have a list where you can check off items<sup>[3]</sup>.
+Github extends Markdown to have a list where you can check off items[^3].
 
 - [x] Finish Step 1
 - [ ] Finish Step 2
@@ -70,7 +87,7 @@ Github extends Markdown to have a list where you can check off items<sup>[3]</su
 
 ## Step 4 - Use Emojis (Optional)
 
-GitHub Flavored Markdown supports emoji shurtcuts<sup>[4]</sup>. Here are some examples:
+GitHub Flavored Markdown supports emoji shurtcuts[^4]. Here are some examples:
 
 | Name | Shortcut | Emoji |
 | --- | --- | --- |
@@ -90,7 +107,7 @@ You can use the following markdown format to create table:
 | Fire | `:fire:` | :fire: |
 ```
 
-Github extends the functionality of Markdown tables to provide more alignment and table cell formatting options [<sup>[5]</sup>](#external-references)
+Github extends the functionality of Markdown tables to provide more alignment and table cell formatting options [^5]:
 
 - Make note of where the pipe keyboard key is located
 - It should appear above the return or enter key , but it may vary based on your keyboard:
@@ -99,12 +116,12 @@ Github extends the functionality of Markdown tables to provide more alignment an
 
 ## External References
 
-- [GitHub Flavored Markdown Spec](https://github.github.com/gfm/)<sup>[1]</sup>
+[^1]: [GitHub Flavored Markdown Spec](https://github.github.com/gfm/)
 
-- [Basic writing and formatting syntax (Github Flavored Markdown)](https://docs.github.com/en/get-started/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax)<sup>[2]</sup>
+[^2]: [Basic writing and formatting syntax (Github Flavored Markdown)](https://docs.github.com/en/get-started/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax)
 
-- [GFM - Task List](https://docs.github.com/en/get-started/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax#task-lists)<sup>[3]</sup>
+[^3]: [GFM - Task List](https://docs.github.com/en/get-started/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax#task-lists)
 
-- [GFM - Emoji CheatSheet](https://github.com/ikatyang/emoji-cheat-sheet)<sup>[4]</sup>
+[^4]: [GFM - Emoji CheatSheet](https://github.com/ikatyang/emoji-cheat-sheet)
 
-- [GFM - Tables (with extensions)](https://github.github.com/gfm/#tables-extension-) <sup>[5]</sup>
+[^5]: [GFM - Tables (with extensions)](https://github.github.com/gfm/#tables-extension-)
